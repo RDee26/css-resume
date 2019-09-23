@@ -1,0 +1,169 @@
+/*Global styles*/
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    /*    background: #EDF2F4;*/
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 0;
+}
+
+h3 {
+    margin: 0;
+}
+
+p {
+    line-height: 1.5;
+}
+
+a {
+    color: #EF233C;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    overflow: hidden;
+}
+
+.col-narrow {
+    width: 30%;
+    float: left;
+}
+
+.col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #EF233C;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+
+/*Header and footer styles*/
+header,
+footer {
+    background: #2B2D42;
+    color: #8D99AE;
+}
+
+/*Header styles*/
+header {
+    padding-top: 50px;
+    position: relative;
+}
+
+header h1,
+header h2 {
+    color: #EDF2F4;
+    margin: 0;
+}
+
+/* .profile-img {
+       width: 225px;
+       border-radius: 6px;
+       float: left;
+       margin-right: 30px;
+} */
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+/*Footer styles*/
+footer {
+    text-align: center;
+}
+
+.content-info a {
+    padding: 10px;
+    display: inline-block;
+}
+
+/*Navigation*/
+header nav {
+    text-align: center;
+    background: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+/*Work Experience*/
+.work {
+    background: #EDF2F4;
+}
+
+h3 ~ p {
+    margin: 0;
+}
+
+.job-description {
+    margin-bottom: 25px;
+}
+
+.job-description p:first-of-type {
+    margin-top: 0;
+}
+
+
+/*Education*/
+.education {
+    background: #8D99AE;
+}
+
+p + h3 {
+    margin-top: 30px;
+}
+
+/*Footer section*/

@@ -58,16 +58,7 @@ a:hover {
     overflow: hidden;
 }
 
-.col-narrow {
-    width: 30%;
-    float: left;
-}
 
-.col-wide {
-    width: 70%;
-    float: left;
-    padding-left: 20px;
-}
 
 .uppercase {
     text-transform: uppercase;
@@ -122,6 +113,11 @@ footer {
     display: inline-block;
 }
 
+.icon:hover {
+    color: blue;
+    background-color: white;
+}
+
 /*Navigation*/
 header nav {
     text-align: center;
@@ -154,16 +150,49 @@ h3 ~ p {
 
 .job-description p:first-of-type {
     margin-top: 0;
+    =
 }
 
 
 /*Education*/
 .education {
-    background: #8D99AE;
+    background: linear-gradient(rgba(141, 153, 174, 0.8), rgba(141, 153, 174, 0.5)), url(https://picsum.photos/3596/2393) no-repeat fixed;
+    background-size: cover;
 }
 
 p + h3 {
     margin-top: 30px;
 }
 
-/*Footer section*/
+.edu-description {
+    width: 70%;
+}
+
+/*Media Queries*/
+
+@media (min-width: 900px) {
+    .col-narrow {
+        width: 30%;
+        float: left;
+    }
+
+    .col-wide {
+        width: 70%;
+        float: left;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 899px) {
+    header {
+        text-align: center;
+    }
+
+    .profile-img {
+        width: 200px;
+    }
+
+    .col-wide ul li {
+        text-align: left;
+    }
+}
